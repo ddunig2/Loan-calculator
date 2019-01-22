@@ -1,5 +1,4 @@
 import java.awt.EventQueue;
-
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JTextField;
@@ -31,9 +30,6 @@ public class MainWindow {
 	private JLabel lblPa;
 	private JLabel lblTi;
 
-	/**
-	 * Launch the application.
-	 */
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
@@ -47,16 +43,10 @@ public class MainWindow {
 		});
 	}
 
-	/**
-	 * Create the application.
-	 */
 	public MainWindow() {
 		initialize();
 	}
 
-	/**
-	 * Initialize the contents of the frame.
-	 */
 	private void initialize() {
 		frmLoanCalculator = new JFrame();
 		frmLoanCalculator.setTitle("Loan Calculator");
